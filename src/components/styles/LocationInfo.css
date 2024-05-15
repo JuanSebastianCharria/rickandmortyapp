@@ -1,0 +1,41 @@
+.location {
+    background-color: #062226;
+    color: aliceblue;
+    width: 100%;
+    max-width: 30em;
+    padding: 2em 1.5em 2.5em;
+    margin-top: 4em;
+    border-radius: 1em;
+    margin-bottom: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 100ms ease;
+    &:hover {
+        transform: scale(1.04);
+        filter: saturate(0.6);
+
+    }
+}
+.location__name {
+    text-align: center;
+    font-weight: 500;
+    color: #9EDD0D;
+    margin-bottom: 0.6em;
+}
+.location__list {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.location__item {
+    display: grid;
+    justify-content: center;
+    gap: 0.3em;
+}
+.location__label {
+    font-size: 0.9em;
+    color: #999;
+}
+.location__value {
+    font-size: 0.95em;
+}

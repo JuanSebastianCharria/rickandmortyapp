@@ -1,0 +1,40 @@
+
+.title {
+    color: white;
+    height: 9em;
+    background-image: url('/public/images/background-title.jpg');
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    line-height: 9em;
+}
+.card__container {
+    
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+.form {
+    display: flex;
+    font-size: 1.1em;
+    width: 20em;
+    margin: 0 auto;
+    padding: 1em ;
+    border: 0.1em solid #ccc6;
+    border-radius: 0.8em;
+}
+.form__input {
+    flex: 1;
+    border: none;
+    border-radius: 0.5em 0 0 0.5em;
+}
+.form__button {
+    background-color: #9EDD0D;
+    border-radius: 0 0.5em 0.5em 0;
+    &:hover {
+        filter: brightness(0.8);
+    }
+}
